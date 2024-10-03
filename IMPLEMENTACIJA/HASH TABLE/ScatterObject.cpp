@@ -8,7 +8,7 @@ ScatterObject::ScatterObject() :HashObject()
 }
 
 
-ScatterObject::ScatterObject(const char* k, Kosarkas* v) :HashObject(k, v)
+ScatterObject::ScatterObject(const char* k) :HashObject(k)
 {
 	status = 0;
 }
