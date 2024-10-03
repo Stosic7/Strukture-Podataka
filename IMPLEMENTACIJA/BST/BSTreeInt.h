@@ -43,11 +43,11 @@ public:
 	void iterativePreorder() const;
 	void breadthFirstSearch() const;
 
- 	int getMoment(BSTNodeInt* root);
-  	int getDeepest(BSTNodeInt* node, BSTNodeInt** deepest, int level);
-  	int deleteRightLeaves(BSTNodeInt* p);
-  	BSTNodeInt* mirror(BSTNodeInt* node);
-  	int countSingleLeavesNodes(BSTNodeInt* p);
+ 	int getMoment();
+  	int getDeepest(BSTNodeInt** deepest);
+  	int deleteRightLeaves();
+  	BSTNodeInt* mirrorCopy();
+  	int countSingleLeavesNodes();
 
   	// ovde dodajete funkciju iz zadatka i implementirajte je u .cpp pa je pozovete u main
 
