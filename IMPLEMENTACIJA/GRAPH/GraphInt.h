@@ -38,5 +38,5 @@ public:
 
 	long topologicalOrderTravrsal() const;
 
-	bool pathWithMinimalNumberOfEdges(int dataFirst, int dataLast);
+	// ovde dodajete funkcije koje implementirate u cpp pa iz maina startujete
 };
