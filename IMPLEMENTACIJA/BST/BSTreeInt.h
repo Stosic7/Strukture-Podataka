@@ -43,15 +43,13 @@ public:
 	void iterativePreorder() const;
 	void breadthFirstSearch() const;
 
-  int getMoment(BSTNodeInt* root);
-  int getDeepest(BSTNodeInt* node, BSTNodeInt** deepest, int level);
-  int deleteRightLeaves(BSTNodeInt* p);
-  BSTNodeInt* mirror(BSTNodeInt* node);
-  int countSingleLeavesNodes(BSTNodeInt* p);
-  bool jeList(BSTNodeInt* node);
-  void getMaxDifferenceNodeHelper(BSTNodeInt* root, BSTNodeInt** maxNode, int& maxDiff, int& sumParni, int& sumNeparni);
+ 	int getMoment(BSTNodeInt* root);
+  	int getDeepest(BSTNodeInt* node, BSTNodeInt** deepest, int level);
+  	int deleteRightLeaves(BSTNodeInt* p);
+  	BSTNodeInt* mirror(BSTNodeInt* node);
+  	int countSingleLeavesNodes(BSTNodeInt* p);
 
-  // ovde dodajete funkciju iz zadatka i implementirajte je u .cpp pa je pozovete u main
+  	// ovde dodajete funkciju iz zadatka i implementirajte je u .cpp pa je pozovete u main
 
 
 };
