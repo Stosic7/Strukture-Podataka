@@ -13,9 +13,5 @@ void main()
 
 	list->printAll();
 
-	list->exchange(1, 2);
-
-	list->printAll();
-
 	delete list;
 }
